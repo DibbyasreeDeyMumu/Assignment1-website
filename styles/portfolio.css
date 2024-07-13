@@ -104,3 +104,19 @@ main section{
 .why-use-web{
     gap: 32px;
 }
+/* inspiration */
+.inspiration-content{
+    text-align: center;
+}
+/* video */
+.video{
+    margin-top: 48px;
+    padding: 32px;
+    border-radius: 16px;
+    /* color: rgba(13, 19, 33, 0.2);
+    border: 2px; */
+}
+.video-related{
+    margin-top: 88px;
+    margin-bottom: 150px;
+}
