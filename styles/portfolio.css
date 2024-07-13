@@ -24,7 +24,7 @@ nav{
 }
 .banner{
     text-align: center;
-    margin: 35px 220px;
+    /* margin: 35px 220px; */
 }
 /* .image{
     width: 240px;
@@ -120,3 +120,29 @@ main section{
     margin-top: 88px;
     margin-bottom: 150px;
 }
+/* skills */
+.skill-items{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+.skill-item{
+    max-width: 364px;
+    /* height: 300px; */
+    padding: 40px;
+}
+/* .skill-des{
+    color: rgb(13, 19, 33);
+} */
+ .anc{
+    color: rgb(13, 19, 33);
+ }
+ .backcolor1{
+    background-color: rgba(255, 76, 30, 0.05);
+ }
+ .backcolor2{
+   background-color: rgba(0, 76, 232, 0.05);
+ }
+ .backcolor3{
+    background-color: rgba(255, 223, 0, 0.05);
+ }
