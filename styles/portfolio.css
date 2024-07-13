@@ -40,7 +40,7 @@ nav{
     background-color: rgba(13, 19, 33, 1);
     color: rgba(255, 255, 255, 1);
     border-radius: 8px;
-    padding: 21px 24px 21px 24px;;
+    padding: 21px 24px 21px 24px;
 }
 /* Hero-bg */
 .hero-bg{
@@ -127,7 +127,7 @@ main section{
     margin-top: 48px;
 }
 .skill-item{
-    max-width: 364px;
+    width: 364px;
     /* height: 300px; */
     padding: 40px;
 }
@@ -146,3 +146,52 @@ main section{
  .backcolor3{
     background-color: rgba(255, 223, 0, 0.05);
  }
+ /* footer */
+ .peragraph{
+    text-align: center;
+ }
+ .footer{
+    background-image: url('../assets/handshake.jpg');
+    /* Frame 8 */
+    /* position: absolute; */
+   width: 1140px;
+   height: 314px;
+   /* left: 150px;
+   right: 150px;
+   top: 4752px;
+   bottom: 179px; */
+  /* / * Auto layout */ 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px 64px 48px;
+  text-align: center;
+  margin: 0 auto;
+}
+ .foot{
+    width: 1044px;
+    margin: 32px 0px;
+
+ }
+ .primary{
+    background-color: white;
+    
+    border-radius: 8px;
+    padding: 10px 40px 10px 40px;;
+}
+.last-div{
+    display: flex;
+    gap: 10px;
+    
+}
+.lastdib2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+
+}
+.pt{
+    font-size: 20px;
+}
